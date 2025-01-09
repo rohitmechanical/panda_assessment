@@ -1,0 +1,56 @@
+Date,Code,Inward,Accepted,Avoidable Return,Avoidable Return Percentage,Aadhaar Number not Mapped to Account Number,Account closed,Account inoperative,Account reached maximum Credit limit set on account by Bank,Amount Exceeds limit set on Account by Bank for Credit per Transaction,Documents Pending for Account Holder turning Major,Dormant account
+06-12-2024,DICX,1,0,1,100,1,0,0,0,0,0,0
+06-12-2024,SICX,1,0,1,100,1,0,0,0,0,0,0
+06-12-2024,APRX,3,1,2,66.67,0,1,0,0,1,0,0
+06-12-2024,APGB,2,1,1,50,1,0,0,0,0,0,0
+06-12-2024,BHWX,2,1,1,50,1,0,0,0,0,0,0
+06-12-2024,DBSS,3,2,1,33.33,0,0,1,0,0,0,0
+06-12-2024,HISX,3,2,1,33.33,1,0,0,0,0,0,0
+06-12-2024,BDBL,4,3,1,25,1,0,0,0,0,0,0
+06-12-2024,UGBX,4,3,1,25,1,0,0,0,0,0,0
+06-12-2024,PTCX,5,4,1,20,0,1,0,0,0,0,0
+06-12-2024,SMNX,19,16,3,15.79,0,2,0,0,0,0,1
+06-12-2024,JUCX,7,6,1,14.29,0,1,0,0,0,0,0
+06-12-2024,GPOX,9,8,1,11.11,1,0,0,0,0,0,0
+06-12-2024,KACX,11,10,1,9.09,1,0,0,0,0,0,0
+06-12-2024,BRDX,46,44,2,4.35,2,0,0,0,0,0,0
+06-12-2024,ICIC,105,101,4,3.81,1,1,0,2,0,0,0
+06-12-2024,VGBX,29,28,1,3.45,1,0,0,0,0,0,0
+06-12-2024,AIRP,104,101,3,2.88,0,0,0,3,0,0,0
+06-12-2024,BVNX,149,145,4,2.68,3,1,0,0,0,0,0
+06-12-2024,BKDX,39,36,1,2.56,1,0,0,0,0,0,0
+06-12-2024,PSIB,78,76,2,2.56,2,0,0,0,0,0,0
+06-12-2024,UBGX,45,44,1,2.22,0,1,0,0,0,0,0
+06-12-2024,SADX,47,46,1,2.13,1,0,0,0,0,0,0
+06-12-2024,IPPB,1999,1971,28,1.4,0,0,0,28,0,0,0
+06-12-2024,FINO,146,144,2,1.37,0,0,0,0,0,2,0
+06-12-2024,MERX,91,90,1,1.1,1,0,0,0,0,0,0
+06-12-2024,UTIB,97,95,1,1.03,0,1,0,0,0,0,0
+06-12-2024,BKID,940,928,8,0.85,8,0,0,0,0,0,0
+06-12-2024,PANX,308,300,2,0.65,2,0,0,0,0,0,0
+06-12-2024,RJTX,185,184,1,0.54,1,0,0,0,0,0,0
+06-12-2024,BARB,5743,5732,10,0.17,10,0,0,0,0,0,0
+06-12-2024,SAGX,587,586,1,0.17,1,0,0,0,0,0,0
+06-12-2024,BGGX,1474,1473,1,0.07,1,0,0,0,0,0,0
+06-12-2024,JAKA,2373,2372,1,0.04,1,0,0,0,0,0,0
+06-12-2024,SBIN,4885,4881,1,0.02,0,0,0,1,0,0,0
+,,19544,19434,93,,,,,,,,
+,,,,,,,,,,,,
+,,,110,,,,,,,,,
+,,,,,,,,,,,,
+Table 1,,,,,,,,,,,,
+Date(Monthwise),Total Banks Count,Total Inward,Total  Accepted,Total Return(Inward - Accepted) ,Total Avoidable Return,,,,,,,
+Table 2,,,,,,,,,,,,
+Month(Yearwise),Total Banks Count,Total Inward,Total  Accepted,Total Return(Inward - Accepted) ,Total Avoidable Return,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Chart 1,,,,,,,,,,,,
+List of Critical banks,,,,,,,,,,,,
+Top 20 Critical Banks(High Avoidable Return Count),,,,,,,,,,,,
+,,,,,,,,,,,,
+Drill Down to Chart 2 ,,,,,,,,,,,,
+,,,,,,,,,,,,
+Chart 2,,,,,,,,,,,,
+Highest Reason Count Bar Graph,,,,,,,,,,,,
+,,,,,,,,,,,,
