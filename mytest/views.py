@@ -26,12 +26,16 @@ class pandas_tosql(APIView):
     authentication_classes=[JWTTokenUserAuthentication]
     permission_classes=[IsAuthenticated]
     def post(self,request):
+        # if i want to use mysql 
+
         # create connection to mysql
         # conn=mysql.connector.connect(
         #     database='test',
         #     user='root',
         #     password='',
         #     host='localhost')
+
+        # if want to use db.sqlite3
         try:
             conn=sqlite3.connect('db.sqlite3')
             print("sql connection established successfully")
@@ -84,20 +88,13 @@ class pandas_tosql(APIView):
 
         # Create pivot table
         pivot_table = pandas.pivot_table(
-            smple[['Code', 'slab']],
+            smple,
             index="Code",
             columns="slab",
             aggfunc="size",
             fill_value=0
-        )
+        ).reset_index()
 
-        # Ensure all slab categories are included as columns
-        for slab_category in ["low", "medium", "high", "below 40"]:
-            if slab_category not in pivot_table.columns:
-                pivot_table[slab_category] = 0
-
-        # Reorder the columns
-        pivot_table = pivot_table[["low", "medium", "high", "below 40"]].reset_index()
 
         # Convert the pivot table to JSON format
         pivot_table_json = pivot_table.to_dict(orient="records")
